@@ -2,17 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Ajoutez d'autres variations si nécessaire */
+
 @font-face {
-  font-family: 'MaPolice';
-  src: url('fonts/ma-police.woff') format('woff'),
-       url('fonts/ma-police.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'graphik';
+  src: url('./assets/fonts/GraphikRegular.otf') format('truetype');
+  font-weight: normal; /* Pour le normal */
+  font-style: normal; /* Pour le normal */
+}
+
+@font-face {
+  font-family: 'graphik';
+  src: url('./assets/fonts/GraphikBold.otf') format('truetype');
+  font-weight: bold; /* Pour le bold */
+  font-style: normal; /* Pour le normal */
+}
+
+@font-face {
+  font-family: 'graphik';
+  src: url('./assets/fonts/GraphikBoldItalic.otf') format('truetype');
+  font-weight: normal; /* Pour le normal */
+  font-style: italic; /* Pour l'italic */
+}
+
+@font-face {
+  font-family: 'graphik';
+  src: url('./assets/fonts/GraphikMedium.otf') format('truetype');
+  font-weight: medium; /* Pour le normal */
+  font-style: normal; /* Pour le normal */
 }
 
 header{
-  height: 930px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("./assets/landing.jpeg");
+  height: 750px;
+  background: url("./assets/img/header.png");
 }
 
 nav{
