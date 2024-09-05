@@ -1,11 +1,25 @@
-import { HTMLAttributes } from "react";
+import { useState, useEffect } from "react";
 import logo from '../assets/img/logo.png'
 import SocialIcons from "./socialIcons";
 
 function HeaderMenu(){
+    const [bg, setBg] = useState("url('src/assets/img/header.png') center center /cover")
+
+    const handleResize = () => {
+        (window.innerWidth >= 768)?
+        setBg("url('src/assets/img/header.png') center center /cover"):
+            setBg("url('src/assets/img/landing.jpg') center center /cover");
+    };
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize)
+        handleResize()
+        return () => {window.removeEventListener('resize', handleResize)};
+    }, []);
 
     return (
-        <header className="w-full bg-center bg-cover p-8 flex flex-col items-center text-red font-graphik">
+        <header className="w-full bg-center bg-cover p-8 flex flex-col items-center text-red font-graphik"
+                style={{background: bg}}>
             <nav className="flex flex-row items-center justify-between w-full">
                 <ul className="flex flex-row gap-4 items-center text-gray-200">
                     <li><a href="#home">Home</a></li>

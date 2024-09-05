@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily:{
         "graphik":"graphik"
+      },
+      colors:{
+        "footercol":"#252b42"
       }
     },
   },

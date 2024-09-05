@@ -2,7 +2,7 @@ import FeatureDetail from './featuredetail'
 
 function FeatureList(){
     return(
-        <div className="flex flex-row flex-wrap p-2 mt-12 gap-5">
+        <div className="flex flex-row flex-wrap p-2 mt-12 gap-5 items-center justify-center">
             <FeatureDetail title='OpenType features Variable fonts' 
                             image='src/assets/img/feature1.png'
                             description='Slate helps you see how many more days you need to work to reach 

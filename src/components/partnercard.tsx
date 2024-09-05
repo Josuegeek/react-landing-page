@@ -15,9 +15,9 @@ function GetSvgLogo(logo:string){
 
 function PartnerCard({name, logo}: Partner){
     return(
-        <div className="flex flex-col gap-3 border border-slate-500 p-3 max-h-28 text-center">
+        <div className="flex flex-col gap-3 border border-slate-500 p-3 min-h-28 max-h-28 text-center">
             <p className="text-xs">{name}</p>
-            <div dangerouslySetInnerHTML={{ __html: logo }} />
+            <img className="w-36" src={logo} alt={name} />
         </div>
     )
 }
