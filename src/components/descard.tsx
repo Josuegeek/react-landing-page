@@ -1,4 +1,4 @@
-import { HTMLAttributes, ReactNode } from "react";
+
 
 interface Descard{
     title : String,

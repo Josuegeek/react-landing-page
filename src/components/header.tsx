@@ -27,8 +27,8 @@ function HeaderMenu(){
                     <li><a href="#pricing">Pricing</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <a className="w-48 ml-7" href="#home"><img src={logo} alt="logo" /></a>
                 </ul>
+                <a className="w-48 ml-7" href="#home"><img src={logo} alt="logo" /></a>
                 <SocialIcons></SocialIcons>
             </nav>
 

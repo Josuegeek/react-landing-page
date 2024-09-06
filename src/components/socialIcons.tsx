@@ -1,5 +1,3 @@
-import { Icon } from '@iconify/react';
-
 function SocialIcons(){
     return(
         <div className='text-gray-200 flex flex-row gap-4'>
