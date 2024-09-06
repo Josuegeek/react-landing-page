@@ -12,7 +12,7 @@ function Main() {
                 <DescriptionCard title="Features" description="Most calendars are designed for teams. 
                     Slate is designed for freelancers"/>
                 <FeatureList />
-                <VideoReader link="" thumbnail="desktop" />
+                <VideoReader/>
             </section>
             <section className="items-center flex flex-col mt-20">
                 <DescriptionCard title="Partners" description="Most calendars are designed for teams. 

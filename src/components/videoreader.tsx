@@ -1,11 +1,6 @@
 import { useState, useEffect } from "react";
 
-interface Video {
-    link: string,
-    thumbnail: string
-}
-
-function VideoReader({ link }: Video) {
+function VideoReader() {
 
     const [bg, setBg] = useState("url('/img/landing.jpg') center center /cover")
 
