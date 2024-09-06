@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
-import logo from '../assets/img/logo.png'
+import logo from '/img/logo.png'
 import SocialIcons from "./socialIcons";
 
 function HeaderMenu(){
-    const [bg, setBg] = useState("url('src/assets/img/header.png') center center /cover")
+    const [bg, setBg] = useState("url('img/header.png') center center /cover")
 
     const handleResize = () => {
         (window.innerWidth >= 768)?
-        setBg("url('src/assets/img/header.png') center center /cover"):
-            setBg("url('src/assets/img/landing.jpg') center center /cover");
+        setBg("url('/img/header.png') center center /cover"):
+            setBg("url('/img/landing.jpg') center center /cover");
     };
 
     useEffect(() => {

@@ -21,10 +21,10 @@ function Main() {
             </section>
             <section className="items-center flex flex-col mt-20">
                 <DescriptionCard title="Testimonials" description=""/>
-                <Testimonial brand='src/assets/img/partners/ibm.svg' 
+                <Testimonial brand='/img/partners/ibm.svg' 
                             text='Most calendars are designed for teams. Slate is designed 
                                 for freelancers who want a simple way to plan their schedule.'
-                            clientName="Organize across" cleintPhoto="src/assets/img/clients-profiles/client1.svg"
+                            clientName="Organize across" cleintPhoto="/img/clients-profiles/client1.svg"
                             profession="UI/UX Designer"/>
             </section>
         </main>

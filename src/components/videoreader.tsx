@@ -7,12 +7,12 @@ interface Video {
 
 function VideoReader({ link }: Video) {
 
-    const [bg, setBg] = useState("url('img/landing.jpg') center center /cover")
+    const [bg, setBg] = useState("url('/img/landing.jpg') center center /cover")
 
     const handleResize = () => {
         (window.innerWidth >= 768)?
-        setBg("url('img/video.jpeg') center center /cover"):
-            setBg("url('img/banner3.png') center center /cover");
+        setBg("url('/img/video.jpeg') center center /cover"):
+            setBg("url('/img/banner3.png') center center /cover");
     };
 
     useEffect(() => {
