@@ -31,7 +31,7 @@ function Footer() {
                                 </div>
                             </div>
 
-                            <SocialIcons />
+                            <SocialIcons style="" />
                         </div>
                     </div>
                 </div>
